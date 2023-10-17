@@ -76,5 +76,5 @@ class ChatBotView(APIView):
 
         answer = question_process(question)
 
-        return Response({'Respuesta:': answer})
+        return Response({'Respuesta': answer})
 
