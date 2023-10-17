@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-fi%1r_s3$ne6ycoa!%#d!(gq_zm0^uzt!u_3vez9y*pl3e*1h(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','https://api.thenexusbattles2.cloud/chatbot/','api.thenexusbattles2.cloud/chatbot/','api.thenexusbattles2.cloud']
 
 
 # Application definition
